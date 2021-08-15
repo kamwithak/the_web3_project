@@ -1,0 +1,21 @@
+{
+  "name": "heroku-cra-node",
+  "description": "ReactJS + Node API",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#v184"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "ledn-challenge",
+  "version": "3.0.0",
+  "description": "Ledn-Challenge := Node API + React UI",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "cd server/ && node index.js",
+    "build": "cd react-ui/ && npm install && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamwithak/Ledn-Challenge.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "license": "MIT",
+  "devDependencies": {}
+}

@@ -84,7 +84,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <Navbar appearance={'default'}>
+        <Navbar appearance={'subtle'}>
           <Navbar.Header>
               <a href='/'>
                   <Logo>
@@ -113,7 +113,6 @@ class App extends React.Component {
               </Nav>
           </Navbar.Body>
         </Navbar>
-
         <Switch>
           <Route exact path={'/'} component={() => <HomePage/>} />
           <Route
